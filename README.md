@@ -72,6 +72,14 @@ python main.py interstellar -d
 ## 🔑 Configuration
 This CLI uses TMDB to fetch movie and TV show metadata. You will need a free API key from [The Movie Database (TMDB)](https://www.themoviedb.org/).
 
-Once you have your key, set it as an environment variable in your terminal:
+Add `TMDB_API_KEY` environment variable
+
+Run in terminal
 ```bash
 export TMDB_API_KEY="your_api_key_here"
+```
+
+Or add `TMDB_API_KEY` to .env file. *(Create a `.env` ir does not exist in project root.)*
+```
+TMDB_API_KEY="your_api_key_here"
+```
